@@ -13,24 +13,24 @@ Este é um clone do site Pinterest, desenvolvido com Flask no backend e HTML, CS
 - O design do site é semelhante ao do Pinterest
 
 ### Como executar o projeto
-- Clone o repositório em sua máquina local
-- Instale as dependências necessárias:
+Clone o repositório em sua máquina local
+Instale as dependências necessárias:
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
-- Configure o banco de dados no arquivo config.py
-- Execute o comando a seguir para criar as tabelas no banco de dados:
+Configure o banco de dados no arquivo config.py
+Execute o comando a seguir para criar as tabelas no banco de dados:
 
-flask db upgrade
+- flask db upgrade
 
-- O projeto possue um arquivo chamado "criar_banco.py",
-caso queira recriar o seu banco de dados, execute o mesmo.
+- O projeto possue um arquivo chamado "criar_banco.py"
+- caso queira recriar o seu banco de dados, execute o mesmo.
 
-- Inicie o servidor:
+Inicie o servidor:
 
-execute o arquivo "main.py"
+- execute o arquivo "main.py"
 
-- Acesse http://localhost:5000 em seu navegador para visualizar o site
+Acesse http://localhost:5000 em seu navegador para visualizar o site
 
 ### Tecnologias usadas
 - Flask
